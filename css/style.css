@@ -1,0 +1,23 @@
+#banner{
+    margin:auto;
+    width: 100%;
+    height: 570px;
+    border:solid grey 1px;
+    border-radius: 10px;
+    background-size: cover;  
+}
+#btnAnt,#btnProx{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+    top: 40%;
+    position: absolute;
+}
+
+#btnAnt{
+  left: 10px;
+}
+#btnProx{
+   right: 10px;
+}
